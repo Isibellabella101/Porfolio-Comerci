@@ -1,59 +1,113 @@
 body{
-    background-color: #987070;
-}
-
-nav {
-    background-color: #C39898;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
+    background-color: #ffc07f;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23a5402d' fill-opacity='0.22'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     margin: 0;
-    display: flex;
-    justify-content: center;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
 }
 
-nav ul li {
-    display: inline-block;
-    padding: 0;
+.navbar {
+    background: linear-gradient(45deg, #F15156 0%, #FFC07F 100%);
+    border-radius: 15px;
+    width: 99%; 
+    margin: 0 auto;
+}
+.primero {
+    margin: auto 10px;
+}
+.btn-custom{
+    background-color: #F15156;
 }
 
-nav ul li a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    padding: 15px 20px;
-    border: 1px solid #987070;
+.hay_que_centrar{
+  align-content: center;
 }
 
-nav ul li a:hover {
-    background-color: #DBB5B5;
-}
+.carousel{
+  max-width: 850px;
+  max-height: 850px;
 
-div{
-    flex: 1;
-    padding: 20px;
-    border: 1px solid #987070;
-    text-align: center;
-    background-color: #F1E5D1;
 }
-
 section{
     flex: 1;
     padding: 20px;
-    border: 1px solid #987070;
+    border: 1px solid #F15156;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
-    background-color: #F1E5D1;
+    background-color: #F9EBE0;
 }
 
-.contenedor{
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    height: 100%;
+.contenedor {
+  display: flex;
+  flex-direction: column; /* Cambiado para apilar secciones */
+  justify-content: flex-start;
+  align-items: stretch;
+  min-height: 150px; /* Asegúrate de que tenga una altura mínima */
 }
 
 .tituloMax{
     background-color: #C39898;
+    font-family: "Nunito", sans-serif;
 }
+
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ubuntu-light-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .ubuntu-regular-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ubuntu-medium-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .titulo{
+    font-style:oblique;
+    font-size: large;
+    background-color: #C39898;
+  }
